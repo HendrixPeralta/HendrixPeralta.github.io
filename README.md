@@ -2,7 +2,7 @@
 
 **Skills:** Python, R, Stata, Tableau, Statistical Analysis, Spatial Economics, Remote Sensing.
 
-### Job experience 
+## Job experience 
 **Maintenance Inginer** - (Nov. 2018 - Oct. 2021)
 Grupo Rojas Packaging - Maintenance Department
 - Classified and restructured the maintenance department's inventory data and improved the managed system, which streamlined and made the search and evaluation of spare parts availability more precise.
@@ -16,18 +16,19 @@ Quala Dominicana - Projects Department
 - Industrial processes laboratory instructor
 - In collaboration with the head of the laboratory, we created an instructor guide for the “Industrial Process II” and  “Computer-Aided Design and Manufacture” courses.
 
-### Education
+## Education
 **Ma. Development Economics** - M2 (Current) 
 Nagoya University - Graduate School of International Development 
 **B.E. Mechatronics Engineering** - 2018 
 Instituto Tecnologico de Santo Domingo (INTEC) 
 
-### Courses/Diplomats 
+## Courses/Diplomats 
 **Data Analysist**, 2023 Datacamp
+
 **Project Management**, 2021
 Pontificia Universidad Catolica Madre y Maestra (PUCMM)
 
-### languages 
-English (Native)
-Spanish (Native)
-Japanese (Conversational)
+## languages 
+English (Native),
+Spanish (Native),
+Japanese (Conversational).
