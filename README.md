@@ -19,6 +19,7 @@ Quala Dominicana - Projects Department
 ## Education
 **Ma. Development Economics** - M2 (Current) 
 Nagoya University - Graduate School of International Development 
+
 **B.E. Mechatronics Engineering** - 2018 
 Instituto Tecnologico de Santo Domingo (INTEC) 
 
