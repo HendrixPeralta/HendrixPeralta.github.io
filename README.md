@@ -7,9 +7,11 @@
 Grupo Rojas Packaging - Maintenance Department
 - Classified and restructured the maintenance department's inventory data and improved the managed system, which streamlined and made the search and evaluation of spare parts availability more precise.
 - Supervised the production plant expansion projects, including installing new production machines. Additionally, organized the technical training for the operators 
+
 **Desing Analist** - (Jun. 2017 - Feb. 2018)
 Quala Dominicana - Projects Department
 - Designed and installed a new production line alongside a multidisciplinary team. 
+
 **Technical Assistant** - (Nov. 2013 - Jun. 2017)
 - Industrial processes laboratory instructor
 - In collaboration with the head of the laboratory, we created an instructor guide for the “Industrial Process II” and  “Computer-Aided Design and Manufacture” courses.
