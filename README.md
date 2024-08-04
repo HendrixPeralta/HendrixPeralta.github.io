@@ -6,7 +6,7 @@
 **Maintenance Inginer** - (Nov. 2018 - Oct. 2021)
 Grupo Rojas Packaging - Maintenance Department
 - Classified and restructured the maintenance department's inventory data and improved the managed system, which streamlined and made the search and evaluation of spare parts availability more precise.
-- Supervised the production plant expansion projects, including installing new production machines. Additionally, organized the technical training for the operators 
+- Supervised the production plant expansion projects, including installing new production machines. Additionally, organized the technical training for the operators. 
 
 **Desing Analist** - (Jun. 2017 - Feb. 2018)
 Quala Dominicana - Projects Department
