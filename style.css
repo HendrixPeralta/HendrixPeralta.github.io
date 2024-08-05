@@ -22,3 +22,14 @@
     overflow: hidden;
     position: relative;
 }
+
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+
+.navbar{
+    text-align: center;
+    flex: 1;
+}
+
