@@ -83,3 +83,42 @@
     font-size: 80px;
     color: white;
 }
+
+/* Index html */ 
+
+.cv-section {
+    text-align: left;
+    color: white;
+    padding: 20px;
+
+}
+
+.cv-section a{
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.cv-section ul{
+    padding-left: 40px;
+}
+
+.section-entry{
+    padding-top: 10px;
+}
+
+/* Job Experience */
+
+.entry-header h3, p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.entry-header h3{
+    font-weight: bold;
+}
+
+.entry-header p{
+    margin: 5px 0;
+}
+/* Job Experience */
