@@ -5,8 +5,9 @@
 
 
 .container{
-    width: 100%;
+    width: 1560px;
     height: auto;
+    margin-inline: auto;
     /*background-image: url(../resources/Backgorund.png);*/
     background-size: cover;
     background-color: darkslategrey;
