@@ -5,9 +5,10 @@
 
 .container{
     width: 100%;
-    height: 100vh;
-    background-image: url(../resources/Backgorund.png);
+    height: 200vh;
+    /*background-image: url(../resources/Backgorund.png);*/
     background-size: cover;
+    background-color: black;
     background-position: center;
     background-repeat: no-repeat;
     padding-left: 8%;
@@ -90,13 +91,13 @@
     text-align: left;
     color: white;
     padding: 20px;
-
+    padding-bottom: 20px;
 }
 
 .cv-section a{
     font-weight: bold;
     font-size: 30px;
-    padding-bottom: 20px;
+
 }
 
 .cv-section ul{
