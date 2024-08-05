@@ -100,7 +100,7 @@
 }
 .project-body {
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: space-between; /* Optional: distribute space between items */
 }
 
@@ -140,4 +140,17 @@
 
 .reference-entry a{
     text-decoration: none;
+}
+
+.skills h3, p{
+    text-align: left;
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+.skills h3{
+    text-align: left;
+    font-weight: bold;
+    color: white;
 }
