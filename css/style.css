@@ -86,41 +86,13 @@
     color: white;
 }
 
-/* Index html */ 
+.project h1{
+    font-size: 50px;
+    color: #FFF;
+}
 
-.cv-section {
-    text-align: left;
+.project p{
+    font-size: 10px;
     color: white;
-    padding: 20px;
-    padding-bottom: 20px;
-}
-
-.cv-section a{
-    font-weight: bold;
-    font-size: 30px;
-
-}
-
-.cv-section ul{
-    padding-left: 40px;
-}
-
-.section-entry{
-    padding-top: 10px;
-}
-
-/* Job Experience */
-
-.entry-header h3, p {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.entry-header h3{
-    font-weight: bold;
-}
-
-.entry-header p{
-    margin: 5px 0;
 }
 /* Job Experience */
