@@ -137,3 +137,7 @@
 .reference-entry{
     display: inline-block;
 }
+
+.reference-entry a{
+    text-decoration: none;
+}
