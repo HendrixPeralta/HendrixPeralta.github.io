@@ -189,3 +189,7 @@
     display: flex;
     display: inline-block;
 }
+
+.skills p {
+    padding-left: 5px;
+}
