@@ -57,6 +57,11 @@
     margin: 40px 8px;
 }
 
+.btn:hover{
+    color: #000;
+    background-color: #FFF;
+}
+
 .content {
     text-align: center;
     margin-top: 12%;
