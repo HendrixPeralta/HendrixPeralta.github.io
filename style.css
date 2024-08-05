@@ -67,6 +67,13 @@
     color: #cc0052
 }
 
+.btn a:hover{
+    color: #000;
+}
+
+.btn a:link{
+    text-decoration: none;
+}
 .content {
     text-align: center;
     margin-top: 12%;
