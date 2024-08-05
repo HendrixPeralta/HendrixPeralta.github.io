@@ -81,46 +81,59 @@
     margin-top: 12%;
 }
 
-.content h1{
+/*.content h1{
     font-size: 80px;
     color: white;
-}
+}*/
 
-/* Index html */ 
-
-.cv-section {
+.project h1{
     text-align: left;
+    font-size: 35px;
+    color: #FFF;
+}
+
+.project p{
+    text-align: left;
+    font-size: 15px;
     color: white;
-    padding: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 5%;
+}
+.project-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Optional: distribute space between items */
 }
 
-.cv-section a{
-    font-weight: bold;
-    font-size: 30px;
-
-}
-
-.cv-section ul{
-    padding-left: 40px;
-}
-
-.section-entry{
-    padding-top: 10px;
-}
-
-/* Job Experience */
-
-.entry-header h3, p {
+.project-body p, img{
     display: inline-block;
     vertical-align: middle;
+    margin-left: 10px; /* Add space between the text and the image */
+    width: auto; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
 }
 
-.entry-header h3{
-    font-weight: bold;
+.project-body p{
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    margin: 0;
+    flex: 1;
 }
 
-.entry-header p{
-    margin: 5px 0;
+.project-body img{
+    width: 250px;
+    height: 250px;
 }
-/* Job Experience */
+.reference {
+    text-align: left;
+    margin: 5px;
+    text-decoration: none;
+}
+.reference img{
+    width: 30px;
+    height: 30px;
+}
+
+.reference-entry{
+    display: inline-block;
+}
