@@ -8,7 +8,7 @@
     height: auto;
     /*background-image: url(../resources/Backgorund.png);*/
     background-size: cover;
-    background-color: black;
+    background-color: darkslategrey;
     background-position: center;
     background-repeat: no-repeat;
     padding-left: 8%;
@@ -102,6 +102,7 @@
 
 .cv-section ul{
     padding-left: 40px;
+    font-size: 13px;
 }
 
 .section-entry{
