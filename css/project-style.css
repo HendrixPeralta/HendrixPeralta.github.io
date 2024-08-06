@@ -158,6 +158,7 @@ html {
     gap: 1rem;
     grid-template-columns: 
         repeat(auto-fit, minmax(500px, 1fr));
+    justify-items: center;
 
 }
 
@@ -170,7 +171,6 @@ html {
 .project-body img{
     display: block;
     max-width: 100%;
-
 }
 
 .footnote{
