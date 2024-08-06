@@ -163,18 +163,28 @@ html {
     padding-top: 4%;
 }
 
-/* Job Experience */
+.section-entry p{
+    font-size: 0.7em;
+}
 
-.entry-header h3, p {
-    display: inline-block;
-    vertical-align: middle;
+/* Job Experience */
+.entry-header {
+    display: flex;
+    align-items: center;
+    margin: 0;
 }
 
 .entry-header h3{
     font-weight: bold;
+    font-size: 2em;
 }
 
 .entry-header p{
-    margin: 5px 0;
+    font-size: 1.5em; /* Explicitly define size */
+    margin: 0; /* Ensure no extra margins affect layout */
+    padding: 0; /* Remove padding if not needed */
 }
+
+
+
 /* Job Experience */
