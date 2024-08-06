@@ -163,43 +163,51 @@ html {
     max-width: 100%;
 
 }
-.reference {
-    text-align: left;
-    margin: 1%;
-    text-decoration: none;
-}
-.reference img{
-    width: 30px;
-    height: 30px;
+
+.footnote{
+    display: grid;
+    grid-template-columns: 
+    repeat(auto-fit, minmax(500px, 1fr));
+    align-items: center;
 }
 
-.reference-entry{
-    display: inline-block;
+.reference {
+    display: flex;
+    justify-self: end;
+    gap: 1rem;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+.reference img{
+    max-width: 30px;
+    max-height: 30px;
+    padding-right: 0.5rem;
+}
+
+.reference-entry {
+    display: flex;
+    align-items: center;
 }
 
 .reference-entry a{
     text-decoration: none;
+    color: #000;
+    font-size: small;
 }
 
-.skills h3{
-    text-align: left;
-    font-weight: bold;
+.skills{
+    align-content: center;
 
-}
-
-.skills, .reference{
-    display: flex;
-    display: inline-block;
-    gap: 1rem 3rem;
 }
 
 .skills p {
-    padding-left: 5px;
+    align-content: center;
 } 
+
+
 
 /* OTher Projects */
 .minor-project{
-
     text-align: left;
 }
 
