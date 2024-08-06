@@ -187,6 +187,16 @@ html {
 
 }
 
+.skills, .reference{
+    display: flex;
+    display: inline-block;
+    gap: 1rem 3rem;
+}
+
+.skills p {
+    padding-left: 5px;
+} 
+
 /* OTher Projects */
 .minor-project{
 
@@ -211,12 +221,3 @@ html {
 .skill-reference .reference{
     padding-left: 30px;
 }
-.skills, .reference{
-    display: flex;
-    display: inline-block;
-    gap: 1rem 3rem;
-}
-
-.skills p {
-    padding-left: 5px;
-} 
