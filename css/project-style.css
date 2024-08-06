@@ -26,21 +26,23 @@ html {
     height: auto;
     margin-inline: auto;
     background-color: #f8f8f8;
-    padding-left: 8%;
-    padding-right: 8%;
 }
  
 .header{
     justify-content: center;
     flex-grow: 1;
-    padding: 1rem;    
+    padding: 1rem;  
+    padding-top: 4rem; 
+    padding-left: 4%;
+    padding-right: 4%;
+
+    background-color: #f8f8f8;    
 }
 
 .header-text{
     max-width: 100%;
     display: flex;
     flex-grow: 1;
-    /* justify-content: center; */
     align-items: center;
     padding: 25px;
     background: black;
@@ -87,8 +89,6 @@ html {
 
 }
 
-
-
 .btn{
     cursor: pointer;
     color: #cc0052;
@@ -120,9 +120,13 @@ html {
 .btn a:link{
     text-decoration: none;
 }
+
 .content {
     text-align: left;
-    margin-top: 12%;
+    padding-top: 4%;
+    /* margin-top: 12%; */
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .project{
