@@ -102,7 +102,7 @@
 }
 .project p{
     text-align: left;
-    font-size: 15px;
+    font-size: 16px;
     color: white;
     padding-bottom: 5%;
 }
@@ -146,6 +146,7 @@
 }
 .skills{
     text-align: left;
+    padding-top: 5%;
 }
 .skills h3, p{
     text-align: left;
