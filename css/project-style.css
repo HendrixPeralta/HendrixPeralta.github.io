@@ -35,7 +35,7 @@ html {
     margin-inline: auto;
     /*background-image: url(../resources/Backgorund.png);*/
     background-size: cover;
-    background-color: darkslategrey;
+    /* background-color: darkslategrey; */
     padding-left: 8%;
     padding-right: 8%;
     /* box-sizing: border-box; */
@@ -63,7 +63,7 @@ html {
    justify-content: flex-end;
    gap: 1rem;
    /* width: 100%; */
-   background-color: darkcyan;
+   /* background-color: darkcyan; */
        
 }
 
@@ -88,7 +88,7 @@ html {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    background-color: darkkhaki;
+    /* background-color: darkkhaki; */
     font-size: x-large;
     
 
