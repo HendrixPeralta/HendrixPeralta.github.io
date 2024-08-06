@@ -26,25 +26,28 @@
     overflow: hidden;
     position: relative;
     line-height: 3;
+    background-color: #cc0052;
 }
 
 .logo{
-    width: 20vh;
+    max-width: 20%;
     cursor: pointer;
 }
 
 .navbar{
-    text-align: center;
-    flex: 2;
-    flex-wrap: wrap;
+    
+   display: flex;
+   flex-wrap: wrap;
+   background-color: darkcyan;
+    
+    
 }
 
 .navbar a{
     padding: 3%;
     text-decoration: none;
     color: white;
-    gap: 1rem 3rem;
-    font-size: 100%;
+    gap: 1rem;
     font-weight: bold;
     
 
