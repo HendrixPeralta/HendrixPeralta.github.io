@@ -3,11 +3,11 @@
     padding: 0;
 }
 
-
 .container{
     width: 1560px;
     height: auto;
     margin-inline: auto;
+    min-width: 450px;
     /*background-image: url(../resources/Backgorund.png);*/
     background-size: cover;
     background-color: darkslategrey;
@@ -119,15 +119,17 @@
 
 .project-body p{
     text-align: left;
-    font-size: 15px;
+    font-size: 100%;
     color: white;
     margin: 0;
     flex: 1;
 }
 
 .project-body img{
-    width: 250px;
-    height: 250px;
+    display: block;
+    width: 30%;
+    height: 30%;
+
 }
 .reference {
     text-align: left;
@@ -189,6 +191,7 @@
 .skills, .reference{
     display: flex;
     display: inline-block;
+    gap: 1rem 3rem;
 }
 
 .skills p {
