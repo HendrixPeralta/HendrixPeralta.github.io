@@ -92,7 +92,7 @@ html {
     border-radius: 5px;
 
 }
-/* 
+
 .btn{
     cursor: pointer;
     color: #cc0052;
@@ -106,7 +106,7 @@ html {
     font-weight: bold;
     margin: 2em 0.5em;
     border-radius: 25px;
-} */
+}
 
 .btn:hover{
     color: #000;
@@ -126,13 +126,13 @@ html {
     text-decoration: none;
 }
 
-/* .last-action{
+.last-action{
     display: flex;
     gap: 5em;
     margin: 2%;
     align-items: center;
     justify-content: center;
-} */
+}
 
 .content {
     padding-top: 4%;
