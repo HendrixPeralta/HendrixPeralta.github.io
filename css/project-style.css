@@ -35,7 +35,6 @@ html {
     padding-top: 4rem; 
     padding-left: 4%;
     padding-right: 4%;
-
     background-color: #f8f8f8;    
 }
 
@@ -68,7 +67,7 @@ html {
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
-   background: gray;
+   background: lightgray;
    gap: 1rem;
 
    border-bottom-left-radius: 25px;
