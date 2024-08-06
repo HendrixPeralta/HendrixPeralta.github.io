@@ -146,7 +146,7 @@ html {
 }
 
 .project p{
-    font-size: smaller;
+    font-size: 0.8em;
     margin-left: 5%;
     padding-bottom: 1%;
 }
@@ -162,7 +162,7 @@ html {
 }
 
 .project-body p{
-    font-size: large;
+    font-size: 0.9em;
     padding-bottom: 2%;
     margin: 0;
 }
@@ -201,7 +201,13 @@ html {
 .reference-entry a{
     text-decoration: none;
     color: #000;
-    font-size: 1.5em;
+    font-size: 0.8em;
+}
+
+@media (min-width:500px){
+    .reference-entry a{
+        font-size: 1.5em;
+    }
 }
 
 .skills{
@@ -236,3 +242,4 @@ html {
     padding-left: 4%;
     padding-right: 4%;
 }
+
