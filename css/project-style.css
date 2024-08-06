@@ -207,6 +207,10 @@ html {
 @media (min-width:500px){
     .reference-entry a{
         font-size: 1.5em;
+
+    .skills p {
+        font-size: 1.5em;
+    } 
     }
 }
 
@@ -223,9 +227,6 @@ html {
 
 .other-projects{
     margin-top: 10%;
-}
-.minor-project{
-    /* text-align: left; */
 }
 
 .minor-project h1{
