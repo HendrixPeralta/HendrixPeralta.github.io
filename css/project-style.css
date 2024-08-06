@@ -58,13 +58,13 @@ html {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: xx-large;
+    font-size: 3em;
     text-align: center;
 } 
 
 .logo{
     margin-left: 5%;
-    max-width: 10%;
+    max-width: 15%;
     cursor: pointer;
 }
 
