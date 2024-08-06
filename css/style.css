@@ -165,6 +165,7 @@ html {
 
 .section-entry p{
     font-size: 0.7em;
+    margin-left: 5%;
 }
 
 /* Job Experience */
@@ -177,7 +178,8 @@ html {
 
 .entry-header h3{
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2.3em;
+    margin: 0; /* Ensure no margin */
 }
 
 .entry-header p{
