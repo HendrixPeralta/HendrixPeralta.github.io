@@ -1,12 +1,6 @@
 body {
-    /* /* font-family: Arial, sans-serif; */
-    /* line-height: 1.6; */
     margin: 0;
     padding: 0;
-}
-
-:host, :root {
-    /* --rem: 16; */
 }
 
 html {
@@ -29,23 +23,18 @@ html {
 }
 
 .container{
-    /* max-width: 1560px;
-    min-width: 400px; */
     height: auto;
     margin-inline: auto;
-    /*background-image: url(../resources/Backgorund.png);*/
-    background-size: cover;
-    /* background-color: darkslategrey; */
+    background-color: darkslategrey;
     padding-left: 8%;
     padding-right: 8%;
-    /* box-sizing: border-box; */
 }
 
 .header{
+    max-width: 100%;
     display: flex;
     gap: 2rem;
     align-items: center;
-    /* line-height: 3; */
     background-color: black;
     padding: 1rem;
 }
@@ -56,15 +45,10 @@ html {
 }
 
 .navbar{  
-    /* display: block;
-    unicode-bidi: isolate; */
    display: flex;
    flex-wrap: wrap;
    justify-content: flex-end;
    gap: 1rem;
-   /* width: 100%; */
-   /* background-color: darkcyan; */
-       
 }
 
 .navbar a{
@@ -80,7 +64,6 @@ html {
 .header-text{
     justify-content: center;
     flex-grow: 1;
-    background-color: #CDCDFE;
 }
 
 .header-title p{
@@ -88,22 +71,10 @@ html {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    /* background-color: darkkhaki; */
-    font-size: x-large;
+    font-size: xx-large;
     
 
 }
-/* @media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .navbar a {
-        width: 100%;
-        text-align: center;
-    }
-} */
 
 .btn{
     cursor: pointer;
@@ -141,10 +112,9 @@ html {
     margin-top: 12%;
 }
 
-/*.content h1{
-    font-size: 80px;
+.content h1{
     color: white;
-}*/
+}
 .project{
     padding-bottom: 5%;
 }
