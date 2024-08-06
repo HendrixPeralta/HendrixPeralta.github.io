@@ -1,4 +1,5 @@
 body {
+    /* font-family: Arial, sans-serif; */
     margin: 0;
     padding: 0;
 }
@@ -120,7 +121,6 @@ html {
 }
 
 .content {
-    text-align: left;
     padding-top: 4%;
     /* margin-top: 12%; */
     padding-left: 8%;
@@ -132,15 +132,14 @@ html {
 }
 
 .project p{
-    text-align: left;
-    font-size: x-large;
+    font-size: smaller;
     margin-left: 5%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
 }
 
 .project-body {
-    align-content: center;
-    justify-content: center;
+    /* align-content: center;
+    justify-content: center; */
     display: grid;
     gap: 1rem;
     grid-template-columns: 
@@ -149,8 +148,8 @@ html {
 }
 
 .project-body p{
-    text-align: left;
-    font-size: 100%;
+    font-size: large;
+    padding-bottom: 2%;
     margin: 0;
 }
 
@@ -177,14 +176,7 @@ html {
     text-decoration: none;
 }
 .skills{
-    text-align: left;
     padding-top: 5%;
-}
-.skills h3, p{
-    text-align: left;
-    display: inline-block;
-    padding-bottom: 20px;
-    padding-top: 5px;
 }
 
 .skills h3{
