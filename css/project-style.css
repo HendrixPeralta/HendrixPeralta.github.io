@@ -233,10 +233,12 @@ html {
     padding-left: 4%;
     padding-right: 4%;
     padding-top: 3%;
+    font-size: 1.5em;
 }
 .minor-project p{
     padding-left: 4%;
     padding-right: 4%;
+    margin-left: 7%;
     font-size: 0.9em;
 
 }
