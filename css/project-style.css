@@ -92,20 +92,21 @@ html {
     border-radius: 5px;
 
 }
-
+/* 
 .btn{
     cursor: pointer;
     color: #cc0052;
-    font-size: 18px;
+    font-size: 2em;
     letter-spacing: 2px;
-    padding: 10px 30px;
+    padding: 0.5em 1em;
     border: 2px solid #033;
     background: transparent;
     text-decoration: none;
     text-align: center;
     font-weight: bold;
-    margin: 40px 8px;
-}
+    margin: 2em 0.5em;
+    border-radius: 25px;
+} */
 
 .btn:hover{
     color: #000;
@@ -124,6 +125,14 @@ html {
 .btn a:link{
     text-decoration: none;
 }
+
+/* .last-action{
+    display: flex;
+    gap: 5em;
+    margin: 2%;
+    align-items: center;
+    justify-content: center;
+} */
 
 .content {
     padding-top: 4%;
@@ -204,28 +213,26 @@ html {
     align-content: center;
 } 
 
-
-
 /* OTher Projects */
+
+.other-projects{
+    margin-top: 10%;
+}
 .minor-project{
-    text-align: left;
+    /* text-align: left; */
 }
 
 .minor-project h1{
-    padding-left: 20px;
-    padding-top: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: left;
-    padding-bottom: 5px;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 3%;
 }
 .minor-project p{
-    padding-left: 40px;
+    padding-left: 4%;
+    padding-right: 4%;
 
 }
-.skill-reference{
-    padding-left: 40px;
-}
-.skill-reference .reference{
-    padding-left: 30px;
+.other-projects .footnote{
+    padding-left: 4%;
+    padding-right: 4%;
 }
