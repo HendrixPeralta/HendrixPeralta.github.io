@@ -4,7 +4,7 @@
 }
 
 .container{
-    width: 1560px;
+    max-width: 1560px;
     height: auto;
     margin-inline: auto;
     min-width: 450px;
@@ -21,6 +21,7 @@
 .header{
     height: 15%;
     display: flex;
+    gap: 1rem 3rem;
     align-items: center;
     overflow: hidden;
     position: relative;
