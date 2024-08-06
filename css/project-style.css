@@ -91,11 +91,10 @@
     color: white;
 }*/
 .project{
-    padding-bottom: 30px;
+    padding-bottom: 5%;
 }
 .project h1, h2{
     text-align: left;
-    font-size: 35px;
     color: #FFF;
 }
 .project h2{
