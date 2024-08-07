@@ -209,6 +209,8 @@ p.header-title{
 
 p.subtitle{
     margin: 0;
+    margin-left: 7%;
+    margin-right: 3%;
 }
 
 /* .skills{
