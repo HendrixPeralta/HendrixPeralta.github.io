@@ -16,20 +16,20 @@ body {
 body > div {width: 100%; height: auto; }
 
 .container { 
-    background: #fff none no-repeat 50% 0; 
+    background: #f8f8f8 none no-repeat 50% 0; 
     margin-bottom: 20px; 
     width:100%; 
     position:relative;} 
-/*
-.body {
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
-}*/
 
 :root {
     view-transition-name: root;
 }
+.content {
+    padding-top: 4%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
 /*
 .container{
     max-width: 1400px;
@@ -142,11 +142,7 @@ p.header-title{
     justify-content: center;
 }
 
-.content {
-    padding-top: 4%;
-    padding-left: 8%;
-    padding-right: 8%;
-}
+
 
 
 .cv-section{
