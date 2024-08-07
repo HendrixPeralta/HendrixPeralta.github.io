@@ -146,6 +146,7 @@ p.header-title{
     text-decoration: none;
     color: black;
     margin: 1%;
+    margin-bottom: 4%;
 }
 
 .essay-entry a{
@@ -164,7 +165,17 @@ p.subtitle{
     margin-right: 3%;
 }
 
+.essay-body{
+ display: flex;
+ flex-wrap: wrap;
+ overflow: hidden;
+}
 
+img {
+    width: 100%;
+    padding-bottom: 3%;
+    /* margin: 5%; */
+}
 
 
 /* body {
