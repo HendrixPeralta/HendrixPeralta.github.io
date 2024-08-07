@@ -26,8 +26,8 @@ body > div {width: 100%; height: auto; }
 }
 .content {
     padding-top: 4%;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
 .header{
@@ -133,6 +133,7 @@ p.header-title{
     justify-content: center;
 }
 
+/* CV */
 .cv-section{
     padding-top: 3%;
 }
