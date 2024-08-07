@@ -179,6 +179,10 @@ p.header-title{
     padding: 0; 
 }
 
+p.date{
+    text-align: right;
+}
+
 /* @media (min-width:500px){
     .cv-section ul {
         font-size: 1.5em;
