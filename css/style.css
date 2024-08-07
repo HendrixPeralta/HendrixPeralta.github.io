@@ -113,10 +113,10 @@ p.header-title{
     text-align: center;
     font-weight: bold;
     margin: 2em 0.5em;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
-/* .btn:hover{
+.btn:hover{
     color: #000;
     background-color: #FFF;
 }
@@ -132,7 +132,7 @@ p.header-title{
 
 .btn a:link{
     text-decoration: none;
-} */
+}
 
 .last-action{
     display: flex;
