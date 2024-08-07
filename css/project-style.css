@@ -33,7 +33,7 @@ body > div {width: 100%; height: auto; }
 
 .header{
     padding: 1em;  
-    margin-top: 1em; 
+    /* margin-top: 1em;  */
     overflow: hidden;
     background-color: #f8f8f8;
 }
@@ -354,8 +354,6 @@ p.subtitle{
         font-size: 1.2em;
     }
 
- 
-    
     .other-projects .footnote{
         padding-left: 2%;
     }
