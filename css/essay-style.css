@@ -137,17 +137,62 @@ html {
 .content {
     padding-top: 4%;
     /* margin-top: 12%; */
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
 
 /* essays */
+.essay-entry{
+    margin-bottom: 5%;
+    background-color: #ececec;
+    padding: 5%;
+    border-radius: 25px;
+}
+
+.essay-entry h1{
+    text-decoration: none;
+}
 
 .essay-entry p{
     margin-left: 3%;
 }
 
-.essay-entry{
-    margin-bottom: 5%;
+p.subtitle{
+    margin-left: 7%;
 }
+
+
+
+
+/* body {
+    background-color: #f8f8f8;
+    color: #333333;
+}
+
+.header-title p {
+    color: #008b8b;
+}
+
+.navbar a {
+    background-color: #333333;
+    color: white;
+}
+
+.essay-entry h1 {
+    color: #800080;
+}
+
+.essay-entry p {
+    background-color: #ececec;
+    color: #333333;
+}
+
+.btn {
+    background-color: #008b8b;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #005f5f;
+} */
