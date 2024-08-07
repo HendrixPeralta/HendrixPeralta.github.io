@@ -318,6 +318,7 @@ p.subtitle{
         align-items: center;
         box-sizing: border-box;
         max-width: 100%;
+        padding-left: 2%;
     }
     
     .reference {
@@ -330,6 +331,33 @@ p.subtitle{
  
     .reference-entry a{
         font-size: 1.2em;
+        flex: 1;
+    }
+
+    .other-projects{
+        margin-top: 6%;
+    }
+
+    .minor-project{
+        margin-bottom: 3%;
+        padding: 3%;
+    }
+    
+    .minor-project h3{
+        margin-top: 0;
+        font-size: 1.5em;
+    }
+
+    .minor-project p{
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 1.2em;
+    }
+
+ 
+    
+    .other-projects .footnote{
+        padding-left: 2%;
     }
 
 }
