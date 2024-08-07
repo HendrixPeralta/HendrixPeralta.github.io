@@ -171,7 +171,7 @@ p.subtitle{
  overflow: hidden;
 }
 
-img {
+img.result {
     width: 100%;
     padding-bottom: 3%;
     /* margin: 5%; */
