@@ -142,7 +142,12 @@ html {
 }
 
 
+/* essays */
 
+.essay-entry p{
+    margin-left: 3%;
+}
 
-
-/* Job Experience */
+.essay-entry{
+    margin-bottom: 5%;
+}
