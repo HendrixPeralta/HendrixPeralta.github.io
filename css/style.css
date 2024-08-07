@@ -134,6 +134,11 @@ p.header-title{
 }
 
 /* CV */
+
+.h1{
+    margin: 0;
+}
+
 .cv-section{
     padding-top: 3%;
 }
@@ -141,6 +146,12 @@ p.header-title{
 .cv-section ul{
     padding-left: 6%;
     font-size: 0.9em;
+}
+
+.cv-section h3{
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 3%;
 }
 
 .section-entry{
@@ -159,18 +170,8 @@ p.header-title{
     margin: 0;
 }
 
-.cv-section h3{
-    font-weight: bold;
-    font-size: 2em;
-    margin-bottom: 3%;
-}
-
 .entry-header h2{
     font-size: 1em; 
-    margin: 0;
-}
-
-.h1{
     margin: 0;
 }
 
@@ -183,15 +184,80 @@ p.date{
     text-align: right;
 }
 
-/* @media (min-width:500px){
-    .cv-section ul {
-        font-size: 1.5em;
+@media (min-width:980px){
+
+    .container{
+        max-width: 1400px;
+        height: auto;
+        margin-inline: auto;
+
+    }
+
+    .header-text{
+        padding: 2%;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+    
+    p.header-title{
+        font-size: 3em;
+    } 
+    
+    .navbar{  
+        gap: 2rem;
+     
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+     }
+     
+     .navbar a{
+         padding: 1% 2%;
+         font-size: 1.2em;
+         border-radius: 15px;
+     
+     }
+
+     .cv-section{
+        padding-top: 1%;
+    }
+    
+    .cv-section ul{
+        padding-left: 6%;
+        padding-right: 6%;
+        font-size: 1.2em;
+    }
+    
+    .section-entry{
+        padding-top: 0;
+    }
+    
+    .section-entry p{
+        font-size: 1.2em;
+        margin-left: 2%;
+    }
+
+    .entry-header{
+        padding-top: 1%;
+        justify-content: flex-start;
+
+    }
+
+    .entry-header h2{
+        font-size: 1.4em; 
+    }
+
+    .btn{
+        font-size: 1.2em;
+        border-radius: 15px;
     }
 
     p.date{
-        font-size: 1.2em;
+        text-align: left;
+        padding-left: 3%;
+        font-size: 1em;
     }
-}  */
+
+} 
 
 img{
     width: 100%;
