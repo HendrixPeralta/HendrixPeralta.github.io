@@ -252,7 +252,7 @@ img.result {
 
 
 
-    .section-entry p{
+    /* .section-entry p{
         font-size: 1.2em;
         margin-left: 2%;
     }
@@ -265,18 +265,18 @@ img.result {
 
     .entry-header h2{
         font-size: 1.4em; 
-    }
+    } */
 
     .btn{
         font-size: 1.2em;
         border-radius: 15px;
     }
 
-    p.date{
+    /* p.date{
         text-align: left;
         padding-left: 3%;
         font-size: 1em;
-    }
+    } */
 
 }
 
