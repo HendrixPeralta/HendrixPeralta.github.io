@@ -207,16 +207,6 @@ html {
     font-size: 0.8em;
 }
 
-@media (min-width:500px){
-    .reference-entry a{
-        font-size: 1.5em;
-
-    /* .skills p {
-        font-size: 1.5em;
-    }  */
-    }
-}
-
 .skills{
     align-content: center;
 
@@ -256,3 +246,12 @@ html {
     padding-right: 4%;
 }
 
+@media (min-width:500px){
+    .reference-entry a{
+        font-size: 1.5em;
+
+    /* .skills p {
+        font-size: 1.5em;
+    }  */
+    }
+}
