@@ -177,35 +177,77 @@ img.result {
     /* margin: 5%; */
 }
 
+@media (min-width:980px){
 
-/* body {
-    background-color: #f8f8f8;
-    color: #333333;
+    .container{
+        max-width: 1400px;
+        height: auto;
+        margin-inline: auto;
+
+    }
+
+    .header-text{
+        padding: 2%;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+    
+    p.header-title{
+        font-size: 3em;
+    } 
+    
+    .navbar{  
+        gap: 2rem;
+     
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+     }
+     
+     .navbar a{
+         padding: 1% 2%;
+         font-size: 1.2em;
+         border-radius: 15px;
+     
+     }
+
+     .cv-section{
+        padding-top: 1%;
+    }
+    
+    .cv-section ul{
+        padding-left: 6%;
+        padding-right: 6%;
+        font-size: 1.2em;
+    }
+    
+    .section-entry{
+        padding-top: 0;
+    }
+    
+    .section-entry p{
+        font-size: 1.2em;
+        margin-left: 2%;
+    }
+
+    .entry-header{
+        padding-top: 1%;
+        justify-content: flex-start;
+
+    }
+
+    .entry-header h2{
+        font-size: 1.4em; 
+    }
+
+    .btn{
+        font-size: 1.2em;
+        border-radius: 15px;
+    }
+
+    p.date{
+        text-align: left;
+        padding-left: 3%;
+        font-size: 1em;
+    }
+
 }
-
-.header-title p {
-    color: #008b8b;
-}
-
-.navbar a {
-    background-color: #333333;
-    color: white;
-}
-
-.essay-entry h1 {
-    color: #800080;
-}
-
-.essay-entry p {
-    background-color: #ececec;
-    color: #333333;
-}
-
-.btn {
-    background-color: #008b8b;
-    color: white;
-}
-
-.btn:hover {
-    background-color: #005f5f;
-} */
