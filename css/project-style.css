@@ -134,7 +134,7 @@ p.header-title{
     justify-content: center;
 }
 
-/* 
+ 
 .project{
     margin-bottom: 5%;
     background-color: #ececec;
@@ -143,25 +143,29 @@ p.header-title{
 }
 
 .project p{
-    font-size: 0.8em;
-    margin-left: 5%;
+    margin-left: 3%;
     padding-bottom: 1%;
 }
 
-.project-body {
+.project h1{
+    margin-bottom: 0.3em;
+}
+
+/* .project-body {
     display: grid;
     gap: 1rem;
     grid-template-columns: 
         repeat(auto-fit, minmax(500px, 1fr));
     justify-items: center;
 
-}
+} */
 
-.project-body p{
+/* .project-body p{
     font-size: 0.9em;
     padding-bottom: 2%;
     margin: 0;
-}
+} */
+
 
 .project-body img{
     display: block;
@@ -171,43 +175,50 @@ p.header-title{
 .footnote{
     display: grid;
     grid-template-columns: 
-    repeat(auto-fit, minmax(500px, 1fr));
+    repeat(auto-fit, minmax(200px, 1fr));
     align-items: center;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
 .reference {
     display: flex;
     justify-self: end;
-    gap: 1rem;
+    gap: 3%;
     text-decoration: none;
     margin-right: 2rem;
+    align-items: center;
 }
 .reference img{
-    max-width: 30px;
-    max-height: 30px;
-    padding-right: 0.5rem;
+    max-width: 20px;
+    max-height: 20px;
+    padding-right: 1%;
 }
 
 .reference-entry {
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 .reference-entry a{
-    text-decoration: none;
     color: #000;
-    font-size: 0.8em;
+    font-size: 1em;
+    margin: 0;
 }
 
-.skills{
+p.subtitle{
+    margin: 0;
+}
+
+/* .skills{
     align-content: center;
 
 }
 
 .skills p {
     align-content: center;
-} 
-
+}  */
 
 .other-projects{
     margin-top: 10%;
@@ -219,25 +230,12 @@ p.header-title{
     padding: 5%;
     border-radius: 25px;
 }
-.minor-project h1{
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 1em;
-    font-size: 1.5em;
-}
-.minor-project p{
-    padding-left: 4%;
-    padding-right: 4%;
-    margin-left: 7%;
-    font-size: 0.9em;
 
+.minor-project p{
+    margin-left: 4%;
+    margin-right: 4%;
 }
+
 .other-projects .footnote{
     padding-left: 4%;
-    padding-right: 4%;
 }
- */
-
- img {
-    width: 100%;
- }
