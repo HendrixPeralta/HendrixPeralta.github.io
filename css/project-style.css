@@ -171,10 +171,9 @@ p.header-title{
     max-width: 100%;
 }
 
-.project_img{
-    border: #000;
+/* .project_img{
 
-}
+} */
 
 .footnote{
     display: grid;
