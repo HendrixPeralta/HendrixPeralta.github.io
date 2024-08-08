@@ -43,7 +43,6 @@ body > div {width: 100%; height: auto; }
     display: flex;
     align-items: center;
     padding: 1%;
-    gap: 0.5%;
     background: black;
     box-sizing: border-box;
     flex-wrap: nowrap;
@@ -63,7 +62,7 @@ p.header-title{
 
 .logo{
     margin-left: 5%;
-    max-width: 15%;
+    max-width: 17%;
     cursor: pointer;
 
     flex-shrink: 0; /* Prevent the logo from shrinking */
