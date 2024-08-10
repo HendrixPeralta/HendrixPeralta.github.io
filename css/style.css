@@ -255,6 +255,43 @@ p.date{
         border-radius: 10%;
         margin: 0  1rem 0 0;
     }
+
+    .cv-section ul{
+        padding-left: 6%;
+        padding-right: 6%;
+        font-size: 1.2em;
+    }
+    
+    .section-entry{
+        padding-top: 0;
+    }
+    
+    .section-entry p{
+        font-size: 1.17em;
+        margin-left: 2%;
+    }
+
+    .entry-header{
+        padding-top: 1%;
+        justify-content: flex-start;
+
+    }
+
+    .entry-header h2{
+        font-size: 1.4em; 
+    }
+
+    .btn{
+        font-size: 1.2em;
+        border-radius: 15px;
+    }
+ 
+    p.date{
+        text-align: left;
+        padding-left: 3%;
+        font-size: 1em;
+    }
+    
 }
 
 @media (min-width:980px){
@@ -304,9 +341,6 @@ p.date{
     }
     
     .home{
-        /* display: flex;
-        gap: 2 rem;
-        flex-wrap: nowrap; */
         display: grid;
         gap: 3rem;
         grid-template-columns: 
@@ -316,8 +350,6 @@ p.date{
     }
 
     .intro{
-        /* flex: 1 1 30%; */
-        /* max-width: 30%; */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -339,40 +371,9 @@ p.date{
         padding-top: 1%;
     }
     
-    .cv-section ul{
-        padding-left: 6%;
-        padding-right: 6%;
-        font-size: 1.2em;
-    }
-    
-    .section-entry{
-        padding-top: 0;
-    }
     
     .section-entry p{
         font-size: 1.2em;
-        margin-left: 2%;
-    }
-
-    .entry-header{
-        padding-top: 1%;
-        justify-content: flex-start;
-
-    }
-
-    .entry-header h2{
-        font-size: 1.4em; 
-    }
-
-    .btn{
-        font-size: 1.2em;
-        border-radius: 15px;
-    }
-
-    p.date{
-        text-align: left;
-        padding-left: 3%;
-        font-size: 1em;
     }
 
 }
