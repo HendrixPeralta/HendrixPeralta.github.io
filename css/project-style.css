@@ -329,6 +329,10 @@ p.subtitle{
 
     }
 
+    .project_img{
+        outline: 3px solid black;
+        outline-offset: 0px;
+    }
     .btn{
         font-size: 1.2em;
         border-radius: 15px;
