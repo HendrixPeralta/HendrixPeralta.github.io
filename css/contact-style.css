@@ -1,0 +1,144 @@
+html,body { 
+    margin: 0; 
+    padding: 0; 
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+
+}
+body {
+    background: transparent none no-repeat 50% 0; 
+    min-height:100%; 
+    height: 100%;
+    width: 100%;
+}
+
+body > div {width: 100%; height: auto; }
+
+.container { 
+    background: #f8f8f8 none no-repeat 50% 0; 
+    margin-bottom: 20px; 
+    width:100%; 
+    position:relative;} 
+
+:root {
+    view-transition-name: root;
+}
+.content {
+    padding-top: 4%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.header{
+    padding: 1em;  
+    /* margin-top: 1em;  */
+    overflow: hidden;
+    background-color: #f8f8f8;
+}
+
+.header-text{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    background: black;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.header-title h3, .sub{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    flex: 1;
+} 
+
+.header-title .sub{
+    margin-top: 0;
+}
+
+.header-title h3{
+    color: white;
+    margin-bottom: 0;
+    font-size: 1.5em;
+}
+
+.logo{
+    margin-left: 5%;
+    max-width: 17%;
+    cursor: pointer;
+
+    outline: 5px solid white;
+    outline-offset: -4px; 
+
+    flex-shrink: 0; /* Prevent the logo from shrinking */
+}
+
+.navbar{  
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   background: lightgray;
+   gap: 0.5rem;
+
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+
+.navbar a{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2% 3%;
+    text-decoration: none;
+    color: white;
+    font-size: x-small;
+    font-weight: bold;
+    background-color: darkgray;
+    border-radius: 5px;
+
+}
+
+.btn{
+    cursor: pointer;
+    color: #cc0052;
+    font-size: small;
+    letter-spacing: 2px;
+    padding: 0.7em 1em;
+    border: 3px solid #033;
+    background: transparent;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    margin: 2em 0.5em;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    color: #000;
+    background-color: #FFF;
+}
+
+.btn a:visited{
+    background-color: #FFF;
+    color: #cc0052
+}
+
+.btn a:hover{
+    color: #000;
+}
+
+.btn a:link{
+    text-decoration: none;
+}
+
+.last-action{
+    display: flex;
+    gap: 1em;
+    margin: 2%;
+    align-items: center;
+    justify-content: center;
+}
