@@ -177,11 +177,15 @@ body > div {width: 100%; height: auto; }
 } */
 
 
-.project-body img{
+/* .project-body img{
+    
+} */
+.project_img{
+    outline: 3px solid black;
+    outline-offset: 0px;
     display: block;
     max-width: 100%;
 }
-
 /* .project_img{
 
 } */
@@ -231,10 +235,10 @@ p.subtitle{
     align-content: center;
 
 }
-
+*/
 .skills p {
-    align-content: center;
-}  */
+    font-size: ;
+}  
 
 .other-projects{
     margin-top: 10%;
@@ -329,10 +333,7 @@ p.subtitle{
 
     }
 
-    .project_img{
-        outline: 3px solid black;
-        outline-offset: 0px;
-    }
+    
     .btn{
         font-size: 1.2em;
         border-radius: 15px;
