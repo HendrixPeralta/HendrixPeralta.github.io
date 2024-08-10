@@ -204,11 +204,18 @@ p.date{
         padding: 2%;
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
+        gap: 2.5em;
+
     }
     
-    p.header-title{
+    .header-title .sub{
+        margin-top: 0;
         font-size: 3em;
-    } 
+    }
+    
+    .header-title h3{
+        font-size: 4em;
+    }  
     
     .navbar{  
         gap: 2rem;
