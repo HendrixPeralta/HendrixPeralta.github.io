@@ -50,14 +50,22 @@ body > div {width: 100%; height: auto; }
     border-top-right-radius: 15px;
 }
 
-p.header-title{
+.header-title h3, .sub{
     color: white;
     font-weight: bold;
-    font-size: 1.5em;
     text-align: center;
-
     flex: 1;
 } 
+
+.header-title .sub{
+    margin-top: 0;
+}
+
+.header-title h3{
+    color: white;
+    margin-bottom: 0;
+    font-size: 1.5em;
+}
 
 .logo{
     margin-left: 5%;
