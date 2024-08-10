@@ -73,6 +73,9 @@ body > div {width: 100%; height: auto; }
     max-width: 17%;
     cursor: pointer;
 
+    outline: 5px solid white;
+    outline-offset: -4px; 
+
     flex-shrink: 0; /* Prevent the logo from shrinking */
 }
 
