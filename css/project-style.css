@@ -249,7 +249,6 @@ p.subtitle{
 
 @media (min-width:668px){
 
-
     .container{
         max-width: 700px;
         height: auto;
@@ -267,6 +266,7 @@ p.subtitle{
     
     .header-title .sub{
         margin-top: 0;
+        padding: 0;
         font-size: 2em;
     }
     
@@ -301,11 +301,11 @@ p.subtitle{
 
     .project h1{
         margin: 2%;
+        
     }
 
     .project p{
-        font-size: 1.2em;
-        margin-left: 2%
+        margin-top: 1%;
     }
 
     p.subtitle{
@@ -314,8 +314,15 @@ p.subtitle{
     
     .skills h2{
         font-size: 1.2em;
+        margin-top: 1%;
+        
     }
     
+    .skills p {
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
     .reference{
         margin-top: 5%;
     }
@@ -360,8 +367,8 @@ p.subtitle{
 
     .container{
         max-width: 1400px;
-        height: auto;
-        margin-inline: auto;
+        /* height: auto;
+        margin-inline: auto; */
 
     }
 
@@ -399,7 +406,7 @@ p.subtitle{
     }
 
     .project{
-        padding: 3%;
+        padding: 4%;
         margin-bottom: 3%;
     }
 
@@ -408,17 +415,20 @@ p.subtitle{
         margin-bottom: 2%;
     }
 
+    .project p{
+        font-size: 1.2em;
+        margin-left: 2%
+    }
+
     p.subtitle{
         margin: 0;
         margin-left: 4%;
         margin-right: 3%;
     }
 
-    .project p{
-        font-size: 1.2em;
-        margin-left: 2%
+    .skills{
+        margin-left: 4%;
     }
-
     .project-body {
         display: grid;
         gap: 1rem;
@@ -428,16 +438,13 @@ p.subtitle{
 
     }
 
-    
-
-
     .footnote{
-        display: grid;
+        /* display: grid;
         grid-template-columns: 
         repeat(auto-fit, minmax(200px, 1fr));
         align-items: center;
         box-sizing: border-box;
-        max-width: 100%;
+        max-width: 100%; */
         padding-left: 2%;
     }
     
