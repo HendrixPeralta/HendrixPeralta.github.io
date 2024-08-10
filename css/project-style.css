@@ -287,17 +287,6 @@ p.subtitle{
         font-size: 1.17em;
      }
 
-    .intro{
-        font-size: 1.17em;
-    }
-
-    .profile{
-        display: flex;
-        float: left;
-        max-width: 40%;
-        border-radius: 10%;
-        margin: 0  1rem 0 0;
-    }
 
     .project h1{
         margin: 2%;
@@ -439,12 +428,6 @@ p.subtitle{
     }
 
     .footnote{
-        /* display: grid;
-        grid-template-columns: 
-        repeat(auto-fit, minmax(200px, 1fr));
-        align-items: center;
-        box-sizing: border-box;
-        max-width: 100%; */
         padding-left: 2%;
     }
     
