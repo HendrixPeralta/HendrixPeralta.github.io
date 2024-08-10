@@ -141,6 +141,11 @@ body > div {width: 100%; height: auto; }
 }
 
 /* CV */
+hr{
+    margin: 3em auto;
+    margin-bottom: 0;
+}
+
 
 .h1{
     margin: 0;
