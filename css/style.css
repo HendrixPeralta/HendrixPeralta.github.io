@@ -151,6 +151,10 @@ hr{
     margin: 0;
 }
 
+.profile{
+    display: none;
+}
+
 .cv-section{
     padding-top: 3%;
 }
