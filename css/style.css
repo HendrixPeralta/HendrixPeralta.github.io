@@ -144,6 +144,8 @@ body > div {width: 100%; height: auto; }
 }
 
 /* CV */
+
+
 hr{
     margin: 3em auto;
     margin-bottom: 0;
@@ -174,6 +176,7 @@ hr{
 
 .section-entry{
     padding-top: 2%;
+    margin-left: 5%;
 }
 
 .section-entry p{
@@ -244,8 +247,6 @@ p.date{
 
     .intro{
         font-size: 1.17em;
-        /* flex-wrap: wrap; */
-        /* margin-top: 1em; */
     }
 
     .profile{
@@ -356,6 +357,8 @@ p.date{
         text-align: left;
         font-size: 1.3em;
         margin-top: 1em;
+        border-right: 2px solid black;
+        padding-right: 1em;
     }
 
     .profile{
