@@ -214,6 +214,7 @@ p.date{
 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 @media (min-width:668px){
 
+
     .container{
         max-width: 700px;
         height: auto;
@@ -302,6 +303,10 @@ p.date{
 }
 
 @media (min-width:980px){
+
+    .cv{
+        padding: 0;
+    }
 
     .container{
         max-width: 1400px;
