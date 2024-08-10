@@ -142,3 +142,111 @@ body > div {width: 100%; height: auto; }
     align-items: center;
     justify-content: center;
 }
+
+@media (min-width:980px){
+
+    .container{
+        max-width: 1400px;
+        height: auto;
+        margin-inline: auto;
+
+    }
+
+    .header-text{
+        padding: 2%;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        gap: 2.5em;
+
+    }
+    
+    .header-title .sub{
+        margin-top: 0;
+        font-size: 3em;
+    }
+    
+    .header-title h3{
+        font-size: 4em;
+    } 
+    
+    
+    .navbar{  
+        gap: 2rem;
+
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+     
+    .navbar a{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        padding: 1% 2%;
+        font-size: 1.2em;
+        border-radius: 15px;
+    
+    }
+
+    .essay-body {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 
+            repeat(auto-fit, minmax(500px, 1fr));
+        justify-items: center;
+
+    }
+    .essay-entry{
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+    
+    .essay-entry a{
+        margin: 0;
+        padding: 0;
+    }
+
+    .essay-entry h1{
+        margin-bottom: 2%;
+        
+    }
+
+    .essay-entry p{
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: 1.2em;
+    }
+
+    p.subtitle{
+        margin: 0;
+        margin-left: 4%;
+        margin-right: 3%;
+    }
+
+
+
+    /* .section-entry p{
+        font-size: 1.2em;
+        margin-left: 2%;
+    }
+
+    .entry-header{
+        padding-top: 1%;
+        justify-content: flex-start;
+
+    }
+
+    .entry-header h2{
+        font-size: 1.4em; 
+    } */
+
+    .btn{
+        font-size: 1.2em;
+        border-radius: 15px;
+    }
+
+    /* p.date{
+        text-align: left;
+        padding-left: 3%;
+        font-size: 1em;
+    } */
+
+}
