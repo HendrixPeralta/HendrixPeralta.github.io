@@ -189,32 +189,35 @@ p.subtitle{
 
 .footnote{
     display: grid;
-    grid-template-columns: 
-    repeat(auto-fit, minmax(200px, 1fr));
-    align-items: center;
-    box-sizing: border-box;
-    max-width: 100%;
-    margin-top: 7%;
+    /* grid-template-columns: 
+    repeat(auto-fit, minmax(200px, 1fr)); */
+    /* align-items: center; */
+    /* box-sizing: border-box; */
+    /* max-width: 100%; */
+
 }
 
 .reference {
     display: flex;
-    justify-self: end;
-    gap: 3%;
+    justify-self: flex-end;
     text-decoration: none;
     margin-right: 2rem;
     align-items: center;
+    margin-top: 7%;
 }
+
 .reference img{
     max-width: 20px;
     max-height: 20px;
-    padding-right: 1%;
+    /* padding-right: 0.5%; */
 }
 
 .reference-entry {
     display: flex;
+    /* flex: 1; */
+    gap: 1%;
     align-items: center;
-    text-align: center;
+    text-align: center;    
 }
 
 .reference-entry a{
@@ -222,8 +225,6 @@ p.subtitle{
     font-size: 1em;
     margin: 0;
 }
-
-
 
 .other-projects{
     margin-top: 10%;
@@ -243,7 +244,116 @@ p.subtitle{
 
 .other-projects .footnote{
     padding-left: 4%;
+    align-items: center;
 }
+
+@media (min-width:668px){
+
+
+    .container{
+        max-width: 700px;
+        height: auto;
+        margin-inline: auto;
+
+    }
+
+    .header-text{
+        padding: 2%;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        gap: 2.5em;
+
+    }
+    
+    .header-title .sub{
+        margin-top: 0;
+        font-size: 2em;
+    }
+    
+    .header-title h3{
+        font-size: 3em;
+    }  
+
+    .navbar{  
+        gap: 1rem;
+     
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+     
+    .navbar a{
+        margin-top: 1.2%;
+        margin-bottom: 1.2%;
+        font-size: 1.17em;
+     }
+
+    .intro{
+        font-size: 1.17em;
+    }
+
+    .profile{
+        display: flex;
+        float: left;
+        max-width: 40%;
+        border-radius: 10%;
+        margin: 0  1rem 0 0;
+    }
+
+    .project h1{
+        margin: 2%;
+    }
+
+    .project p{
+        font-size: 1.2em;
+        margin-left: 2%
+    }
+
+    p.subtitle{
+        margin-left: 7%;
+    }
+    
+    .skills h2{
+        font-size: 1.2em;
+    }
+    
+    .reference{
+        margin-top: 5%;
+    }
+
+    .reference img{
+        max-width: 40px;
+        max-height: 40px;
+        
+    }
+  
+    .reference-entry a{
+        font-size: 1.17em;
+
+    }
+
+    .minor-project h3{
+        margin: 2%;
+        font-size: 1.4em;
+
+    }
+    
+    .minor-project p{
+        font-size: 1.2em;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    
+    .other-projects .footnote{
+        padding-left: 4%;
+        align-items: center;
+    }
+
+    .btn{
+        font-size: 1.2em;
+        border-radius: 15px;
+    } 
+}
+
 
 
 @media (min-width:980px){
@@ -319,10 +429,7 @@ p.subtitle{
     }
 
     
-    .btn{
-        font-size: 1.2em;
-        border-radius: 15px;
-    } 
+
 
     .footnote{
         display: grid;
