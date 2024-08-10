@@ -202,6 +202,61 @@ p.date{
     text-align: right;
 }
 
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+@media (min-width:668px){
+
+    .container{
+        max-width: 700px;
+        height: auto;
+        margin-inline: auto;
+
+    }
+
+    .header-text{
+        padding: 2%;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        gap: 2.5em;
+
+    }
+    
+    .header-title .sub{
+        margin-top: 0;
+        font-size: 2em;
+    }
+    
+    .header-title h3{
+        font-size: 3em;
+    }  
+
+    .navbar{  
+        gap: 1rem;
+     
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+     
+    .navbar a{
+        margin-top: 1.2%;
+        margin-bottom: 1.2%;
+        font-size: 1.17em;
+     }
+
+    .intro{
+        font-size: 1.17em;
+        /* flex-wrap: wrap; */
+        /* margin-top: 1em; */
+    }
+
+    .profile{
+        display: flex;
+        float: left;
+        max-width: 40%;
+        border-radius: 10%;
+        margin: 0  1rem 0 0;
+    }
+}
+
 @media (min-width:980px){
 
     .container{
