@@ -176,19 +176,12 @@ body > div {width: 100%; height: auto; }
     margin: 0;
 } */
 
-
-/* .project-body img{
-    
-} */
 .project_img{
     outline: 3px solid black;
     outline-offset: 0px;
     display: block;
     max-width: 100%;
 }
-/* .project_img{
-
-} */
 
 .footnote{
     display: grid;
