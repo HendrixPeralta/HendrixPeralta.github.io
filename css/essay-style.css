@@ -220,24 +220,26 @@ img.result {
     
     .navbar{  
         gap: 2rem;
-     
+
         border-bottom-left-radius: 30px;
         border-bottom-right-radius: 30px;
     }
      
-     .navbar a{
-         padding: 1% 2%;
-         font-size: 1.2em;
-         border-radius: 15px;
-     
+    .navbar a{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        padding: 1% 2%;
+        font-size: 1.2em;
+        border-radius: 15px;
+    
     }
 
     .essay-body {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 
-        repeat(auto-fit, minmax(500px, 1fr));
-    justify-items: center;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 
+            repeat(auto-fit, minmax(500px, 1fr));
+        justify-items: center;
 
     }
     .essay-entry{
