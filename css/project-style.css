@@ -168,6 +168,25 @@ body > div {width: 100%; height: auto; }
     max-width: 100%;
 }
 
+p.subtitle{
+    margin: 0;
+    margin-left: 7%;
+    margin-right: 3%;
+}
+
+.skills{
+    margin-left: 7%;
+}
+.skills h2{
+    font-size: 1em;
+    margin-bottom: 0;
+
+}
+
+.skills p {
+    margin-top: 2%;
+}  
+
 .footnote{
     display: grid;
     grid-template-columns: 
@@ -204,24 +223,7 @@ body > div {width: 100%; height: auto; }
     margin: 0;
 }
 
-p.subtitle{
-    margin: 0;
-    margin-left: 7%;
-    margin-right: 3%;
-}
 
-.skills{
-    margin-left: 7%;
-}
-.skills h2{
-    font-size: 1em;
-    margin-bottom: 0;
-
-}
-
-.skills p {
-    margin-top: 2%;
-}  
 
 .other-projects{
     margin-top: 10%;
