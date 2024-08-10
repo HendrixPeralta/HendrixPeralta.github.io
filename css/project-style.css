@@ -175,6 +175,7 @@ body > div {width: 100%; height: auto; }
     align-items: center;
     box-sizing: border-box;
     max-width: 100%;
+    margin-top: 7%;
 }
 
 .reference {
@@ -209,8 +210,11 @@ p.subtitle{
     margin-right: 3%;
 }
 
+.skills{
+    margin-left: 7%;
+}
 .skills h2{
-    font-size: 1.1em;
+    font-size: 1em;
     margin-bottom: 0;
 
 }
