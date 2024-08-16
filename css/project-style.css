@@ -161,11 +161,17 @@ body > div {width: 100%; height: auto; }
     margin-bottom: 0.3em;
 }
 
-.project_img{
+.project-body {
+    display: flex;
+    flex-direction: column; /* Ensures content is stacked vertically */
+    align-items: center; /* Aligns items (including your image) horizontally at the center */
+}
+
+.project_img {
     outline: 3px solid black;
     outline-offset: 0px;
-    display: block;
     max-width: 100%;
+    height: auto;
 }
 
 p.subtitle{
@@ -418,14 +424,16 @@ p.subtitle{
     .skills{
         margin-left: 4%;
     }
-    .project-body {
-        display: grid;
-        gap: 1rem;
-        grid-template-columns: 
-            repeat(auto-fit, minmax(500px, 1fr));
-        justify-items: center;
+    /* .project-body { */
+        /* display: grid; */
+        /* gap: 1rem; */
+        /* grid-template-columns: 
+            repeat(auto-fit, minmax(500px, 1fr)); */
+        /* justify-items: center;
+        align-items: center;
+        align-content: center;
+    } */
 
-    }
 
     .footnote{
         padding-left: 2%;
