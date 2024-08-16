@@ -154,7 +154,7 @@ body > div {width: 100%; height: auto; }
 
 .essay-entry h1 {
     text-decoration: none;
-    color: black;
+    /* color: black; */
     /* margin: 1%; */
     margin-bottom: 4%;
 }
