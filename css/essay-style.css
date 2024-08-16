@@ -248,7 +248,7 @@ img.result {
 
 }
 
-
+ /* ======================================================================================= */
 @media (min-width:980px){
 
     .container{
@@ -258,37 +258,50 @@ img.result {
 
     }
 
-    .header-text{
-        padding: 2%;
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
-        gap: 2.5em;
+    .header {
+        max-height: 250px;
     }
     
+    .header-text{
+        padding: 2%;
+        gap: 2.5em;
+        padding: 0;
+        height: 80%;
+        padding-left: 10%;
+    }
+    
+    .logo{
+        max-width: 10%;
+    }
+
+    .header-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Center-align text vertically */
+        text-align: center;
+        margin: 0;
+
+    }
     .header-title .sub{
         margin-top: 0;
-        font-size: 3em;
+        font-size: 2.2em;
     }
     
     .header-title h3{
-        font-size: 4em;
-    } 
-    
+        font-size: 2.5em;
+    }  
     
     .navbar{  
-        gap: 2rem;
-        border-bottom-left-radius: 30px;
-        border-bottom-right-radius: 30px;
+        gap: 1.5rem;
     }
      
     .navbar a{
         margin-top: 1%;
         margin-bottom: 1%;
         padding: 1% 2%;
-        font-size: 1.2em;
-        border-radius: 15px;
-    
-    }
+        font-size: 1em;
+        border-radius: 15px;  
+     }
 
     .essay-body {
         display: grid;

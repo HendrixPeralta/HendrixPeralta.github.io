@@ -172,3 +172,65 @@ a {
 a:hover {
     color: #0073b1;
 }
+
+ /* ======================================================================================= */
+ @media (min-width:980px){
+
+    .container{
+        max-width: 1400px;
+        height: auto;
+        margin-inline: auto;
+
+    }
+
+    .header {
+        max-height: 250px;
+    }
+    
+    .header-text{
+        padding: 2%;
+        gap: 2.5em;
+        padding: 0;
+        height: 80%;
+        padding-left: 10%;
+    }
+    
+    .logo{
+        max-width: 10%;
+    }
+
+    .header-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Center-align text vertically */
+        text-align: center;
+        margin: 0;
+
+    }
+    .header-title .sub{
+        margin-top: 0;
+        font-size: 2.2em;
+    }
+    
+    .header-title h3{
+        font-size: 2.5em;
+    }  
+    
+    .navbar{  
+        gap: 1.5rem;
+    }
+     
+    .navbar a{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        padding: 1% 2%;
+        font-size: 1em;
+        border-radius: 15px;  
+     }
+
+    .btn{
+        font-size: 1.2em;
+        border-radius: 15px;
+    }
+
+}
