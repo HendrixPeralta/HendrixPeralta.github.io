@@ -13,17 +13,21 @@ body {
     width: 100%;
 }
 
-body > div {width: 100%; height: auto; }
+body > div {
+    width: 100%; 
+    height: auto; }
 
 .container { 
     background: #f8f8f8 none no-repeat 50% 0; 
     margin-bottom: 20px; 
     width:100%; 
-    position:relative;} 
+    position:relative;
+} 
 
 :root {
     view-transition-name: root;
 }
+
 .content {
     padding-top: 4%;
     padding-left: 6%;
@@ -154,11 +158,15 @@ body > div {width: 100%; height: auto; }
 
 .essay-entry h1 {
     text-decoration: none;
-    /* color: black; */
+    color: black;
     /* margin: 1%; */
     margin-bottom: 4%;
 }
 
+.essay-entry h1 :hover {
+    color: #0073b1;
+
+}
 .essay-entry a{
     text-decoration: none;
     /* padding-left: 1% */
@@ -380,4 +388,4 @@ img.result {
 
 .btn:hover {
     background-color: #005f5f;
-} */
+} 
