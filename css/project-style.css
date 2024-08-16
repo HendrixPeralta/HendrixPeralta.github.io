@@ -430,6 +430,9 @@ p.subtitle{
         margin-left: 2%
     }
 
+    .project_img{
+        max-height: 45em;
+    }
     p.subtitle{
         margin: 0;
         margin-left: 4%;
