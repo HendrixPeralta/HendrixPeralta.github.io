@@ -168,7 +168,7 @@ body > div {width: 100%; height: auto; }
 }
 
 .project_img {
-    outline: 3px solid black;
+    outline: 1px solid black;
     outline-offset: 0px;
     max-width: 100%;
     height: auto;
