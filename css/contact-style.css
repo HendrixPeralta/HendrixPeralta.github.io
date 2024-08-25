@@ -13,17 +13,21 @@ body {
     width: 100%;
 }
 
-body > div {width: 100%; height: auto; }
+body > div {
+    width: 100%; 
+    height: auto; }
 
 .container { 
     background: #f8f8f8 none no-repeat 50% 0; 
     margin-bottom: 20px; 
     width:100%; 
-    position:relative;} 
+    position:relative;
+} 
 
 :root {
     view-transition-name: root;
 }
+
 .content {
     padding-top: 4%;
     padding-left: 6%;
@@ -179,7 +183,7 @@ p{
 
  /* ======================================================================================= */
 
-@media (min-width:668px){
+ @media (min-width:668px){
 
     .container{
         max-width: 700px;
