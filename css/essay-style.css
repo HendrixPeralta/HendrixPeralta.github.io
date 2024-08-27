@@ -188,7 +188,7 @@ p.subtitle{
 img.essay-img{
     outline: 2px solid black;
     outline-offset: 0px;
-    max-width: 60%;
+    max-width: 93%;
     padding: 2%;
     padding-right: 4%;
     height: auto;
@@ -357,6 +357,11 @@ img.essay-img{
     .btn{
         font-size: 1.2em;
         border-radius: 15px;
+    }
+
+    img.essay-img{
+        max-width: 60%;
+ 
     }
 
 }
