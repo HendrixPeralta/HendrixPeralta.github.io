@@ -172,6 +172,8 @@ body > div {width: 100%; height: auto; }
     outline-offset: 0px;
     max-width: 100%;
     height: auto;
+    background-color: white;
+    padding: 2%;
 }
 
 p.subtitle{
