@@ -13,17 +13,21 @@ body {
     width: 100%;
 }
 
-body > div {width: 100%; height: auto; }
+body > div {
+    width: 100%; 
+    height: auto; }
 
 .container { 
     background: #f8f8f8 none no-repeat 50% 0; 
     margin-bottom: 20px; 
     width:100%; 
-    position:relative;} 
+    position:relative;
+} 
 
 :root {
     view-transition-name: root;
 }
+
 .content {
     padding-top: 4%;
     padding-left: 6%;
@@ -173,13 +177,13 @@ a:hover {
     color: #0073b1;
 }
 
-p{
-    font-size: 1.5em;
+.email{
+    font-size: 0.9em;
 }
 
  /* ======================================================================================= */
 
-@media (min-width:668px){
+ @media (min-width:668px){
 
     .container{
         max-width: 700px;
@@ -217,9 +221,13 @@ p{
         margin-bottom: 1.2%;
         font-size: 1.17em;
     }
+
+    .email{
+        font-size: 1.2em;
+    }
 }
  /* ======================================================================================= */
- @media (min-width:980px){
+ @media (min-width:1100px){
 
     .container{
         max-width: 1400px;
@@ -276,6 +284,10 @@ p{
     .btn{
         font-size: 1.2em;
         border-radius: 15px;
+    }
+
+    .email{
+        font-size: 1.5em;
     }
 
 }
