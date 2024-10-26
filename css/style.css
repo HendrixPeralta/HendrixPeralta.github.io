@@ -162,9 +162,10 @@ hr{
 }
 
 .hobby{
+    margin-left: 5%;
     outline: 1px solid black;
     outline-offset: 0px;
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     background-color: white;
     padding: 2%;
