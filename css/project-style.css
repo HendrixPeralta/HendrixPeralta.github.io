@@ -502,4 +502,24 @@ p.subtitle{
         padding-left: 2%;
     }
 
+.tableau-container {
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 8px;
+    overflow: hidden; /* Prevents scrollbars */
+}
+
+.tableauPlaceholder {
+    width: 100% !important;
+    height: 80vh !important; /* 80% of viewport height */
+    min-height: 500px; /* Fallback */
+    border: none;
+}
+
+/* Reset Tableau's default spacing */
+.tableauViz {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 }
